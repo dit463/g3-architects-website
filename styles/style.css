@@ -75,10 +75,33 @@ header{
 /* ============small devise============ */
 
 @media screen and (max-width:576px) {
-    
+    .common-description{
+        font-size: 0.7rem;
+    }
+    .top-bar{
+        flex-direction: column;
+    }
+    .logo-site h3{
+        font-size: 1.5rem;
+    }
+    .menu>ul li{
+        margin-right: 0.4rem;
+    }
+    .menu a{
+        font-size: 0.8rem;
+        margin-right: 5px;
+    }
+    .banner-content{
+        padding: 0.35rem 0.65rem;
+    }
+    .banner-content h2{
+        font-size: 1.2rem;
+    }
 }
 
 /* =============mediub divise=========== */
 @media screen and (min-width:576px) and (max-width: 970px) {
-
+    .banner-content{
+        padding: 1rem 3rem;
+    }
 }
