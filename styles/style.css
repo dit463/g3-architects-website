@@ -1,0 +1,84 @@
+/* ============common styles=============== */
+
+/* font-family */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+.common-description{
+    color: #727272;
+}
+.praimary-btn{
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #ff900e;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+/* ==============header section============== */
+header{
+    background-color: rgba(255, 144, 14, 0.10);
+}
+.top-bar{
+    padding: 1rem;
+    height: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-site h3{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #131313;
+
+}
+.menu>ul{
+    display: flex;
+}
+.menu>ul li{
+    list-style: none;
+    margin-right: 0.9rem;
+}
+.menu a{
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: #424242;
+}
+.banner-content{
+    padding: 1rem 15rem;
+    text-align: center;
+}
+.banner-content h2{
+    margin: 1rem 0;
+    font-size: 2.7rem;
+}
+.banner-img{
+    display: flex;
+    justify-content: center;
+}
+.banner-img img{
+    width: 70%;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+
+/* ============small devise============ */
+
+@media screen and (max-width:576px) {
+    
+}
+
+/* =============mediub divise=========== */
+@media screen and (min-width:576px) and (max-width: 970px) {
+
+}
